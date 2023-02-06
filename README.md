@@ -11,6 +11,4 @@ Built on [telegram-bot](https://github.com/vendelieu/telegram-bot)
 | Docker container      | ![0%](https://progress-bar.dev/0) |
 | Kotest test framework | ![0%](https://progress-bar.dev/0) |
 | Core code             | ![0%](https://progress-bar.dev/0) |
-| Nginx                 | ![0%](https://progress-bar.dev/0) |
-| Jenkins CI/CD         | ![0%](https://progress-bar.dev/0) |
 | Database              | ![0%](https://progress-bar.dev/0) |
