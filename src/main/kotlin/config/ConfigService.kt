@@ -1,9 +1,11 @@
 package config
 
+import helpers.getEnvVar
+
 class ConfigService {
     fun getConfigData(): ConfigData {
         return ConfigData(
-            botToken = System.getenv("BOT_TOKEN")
+            botToken = getEnvVar("BOT_TOKEN")
         )
     }
 }
