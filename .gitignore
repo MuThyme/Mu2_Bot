@@ -1,3 +1,18 @@
+# Build artifacts
+**/.gradle/**
+!.gradle/donotdelete
+build/
+.build/
+coverage/
+*.zip
+*.txt
+bin/
+/lib
+
+# IDE metadata
+.idea/
+*.iml
+
 # Compiled class file
 *.class
 
@@ -11,7 +26,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.nar
 *.ear

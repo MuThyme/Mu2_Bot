@@ -6,8 +6,8 @@ Built on [telegram-bot](https://github.com/vendelieu/telegram-bot)
 ### Feature Roadmap/Checklist
 
 | Feature               | Progress                          |
-| --------------------- | :-------------------------------- |
-| Initial Code          | ![0%](https://progress-bar.dev/0) |
+| --------------------- |:----------------------------------|
+| Initial Code          | ![5%](https://progress-bar.dev/5) |
 | Docker container      | ![0%](https://progress-bar.dev/0) |
 | Kotest test framework | ![0%](https://progress-bar.dev/0) |
 | Core code             | ![0%](https://progress-bar.dev/0) |
