@@ -4,7 +4,7 @@ plugins {
     id "org.jlleitschuh.gradle.ktlint" version "11.1.0"
 }
 
-group = 'org.example'
+group = 'com.muthyme'
 version = '1.0-SNAPSHOT'
 
 repositories {
