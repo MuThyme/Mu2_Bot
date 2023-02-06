@@ -1,6 +1,7 @@
 plugins {
     id 'org.jetbrains.kotlin.jvm' version '1.8.0'
     id 'application'
+    id "org.jlleitschuh.gradle.ktlint" version "11.1.0"
 }
 
 group = 'org.example'
@@ -11,6 +12,7 @@ repositories {
 }
 
 dependencies {
+    implementation 'eu.vendeli:telegram-bot:2.5.4'
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
 }
 
@@ -19,7 +21,7 @@ test {
 }
 
 kotlin {
-    jvmToolchain(8)
+    jvmToolchain(11)
 }
 
 application {

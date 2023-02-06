@@ -1,7 +1,10 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+import config.ConfigService
+import eu.vendeli.tgbot.TelegramBot
+import kotlinx.coroutines.runBlocking
 
-    // Try adding program arguments via Run/Debug configuration.
-    // Learn more about running applications: https://www.jetbrains.com/help/idea/running-applications.html.
-    println("Program arguments: ${args.joinToString()}")
+const val COMMANDS_PACKAGE = "commands"
+fun main() = runBlocking { // TODO instantiate coroutine scope properly
+
+    val config = ConfigService().getConfigData()
+    val bot = TelegramBot(token = config.botToken, commandsPackage = COMMANDS_PACKAGE)
 }
